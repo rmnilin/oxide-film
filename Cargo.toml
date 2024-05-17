@@ -1,0 +1,15 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "oxide-film"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+libc = { version = "=0.2.155", default-features = false }
+
+[lints.rust]
+unused = "allow"
+
+[lints.clippy]
+write_with_newline = "allow"
